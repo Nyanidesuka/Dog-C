@@ -8,26 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		17C847CA2295DD8F00309C40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C847C92295DD8F00309C40 /* AppDelegate.m */; };
-		17C847CD2295DD8F00309C40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C847CC2295DD8F00309C40 /* ViewController.m */; };
 		17C847D02295DD8F00309C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C847CE2295DD8F00309C40 /* Main.storyboard */; };
 		17C847D32295DD8F00309C40 /* Dog_C.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17C847D12295DD8F00309C40 /* Dog_C.xcdatamodeld */; };
 		17C847D52295DD9100309C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C847D42295DD9100309C40 /* Assets.xcassets */; };
 		17C847D82295DD9100309C40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C847D62295DD9100309C40 /* LaunchScreen.storyboard */; };
 		17C847DB2295DD9100309C40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C847DA2295DD9100309C40 /* main.m */; };
+		17C847E32295DFF200309C40 /* HAJDogBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C847E22295DFF200309C40 /* HAJDogBreed.m */; };
+		17C847E72295E00E00309C40 /* HAJSubBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C847E62295E00E00309C40 /* HAJSubBreed.m */; };
+		17C847EA2295E4AC00309C40 /* HAJBreedNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C847E92295E4AC00309C40 /* HAJBreedNetworkClient.m */; };
+		17C847F52295FFEA00309C40 /* BreedListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C847F42295FFEA00309C40 /* BreedListTableViewController.swift */; };
+		17C847F922960B7100309C40 /* SubBreedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C847F822960B7100309C40 /* SubBreedTableViewController.swift */; };
+		17C847FB2296195D00309C40 /* DogPicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C847FA2296195C00309C40 /* DogPicCollectionViewCell.swift */; };
+		17C8482822961BA900309C40 /* DogPicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C8482722961BA900309C40 /* DogPicCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17C847C52295DD8F00309C40 /* Dog-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C847C82295DD8F00309C40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		17C847C92295DD8F00309C40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		17C847CB2295DD8F00309C40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		17C847CC2295DD8F00309C40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		17C847CF2295DD8F00309C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17C847D22295DD8F00309C40 /* Dog_C.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dog_C.xcdatamodel; sourceTree = "<group>"; };
 		17C847D42295DD9100309C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17C847D72295DD9100309C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17C847D92295DD9100309C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17C847DA2295DD9100309C40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17C847E12295DFF200309C40 /* HAJDogBreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAJDogBreed.h; sourceTree = "<group>"; };
+		17C847E22295DFF200309C40 /* HAJDogBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAJDogBreed.m; sourceTree = "<group>"; };
+		17C847E52295E00E00309C40 /* HAJSubBreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAJSubBreed.h; sourceTree = "<group>"; };
+		17C847E62295E00E00309C40 /* HAJSubBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAJSubBreed.m; sourceTree = "<group>"; };
+		17C847E82295E4AC00309C40 /* HAJBreedNetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAJBreedNetworkClient.h; sourceTree = "<group>"; };
+		17C847E92295E4AC00309C40 /* HAJBreedNetworkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAJBreedNetworkClient.m; sourceTree = "<group>"; };
+		17C847F32295FFE900309C40 /* Dog-C-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dog-C-Bridging-Header.h"; sourceTree = "<group>"; };
+		17C847F42295FFEA00309C40 /* BreedListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListTableViewController.swift; sourceTree = "<group>"; };
+		17C847F822960B7100309C40 /* SubBreedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubBreedTableViewController.swift; sourceTree = "<group>"; };
+		17C847FA2296195C00309C40 /* DogPicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogPicCollectionViewCell.swift; sourceTree = "<group>"; };
+		17C8482722961BA900309C40 /* DogPicCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogPicCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +76,12 @@
 			isa = PBXGroup;
 			children = (
 				17C847C82295DD8F00309C40 /* AppDelegate.h */,
+				17C847FA2296195C00309C40 /* DogPicCollectionViewCell.swift */,
+				17C847EB2295E4B200309C40 /* Model Controller */,
+				17C847E42295DFF600309C40 /* Models */,
 				17C847C92295DD8F00309C40 /* AppDelegate.m */,
-				17C847CB2295DD8F00309C40 /* ViewController.h */,
-				17C847CC2295DD8F00309C40 /* ViewController.m */,
 				17C847CE2295DD8F00309C40 /* Main.storyboard */,
+				17C847EF2295F49E00309C40 /* View Controllers */,
 				17C847D42295DD9100309C40 /* Assets.xcassets */,
 				17C847D62295DD9100309C40 /* LaunchScreen.storyboard */,
 				17C847D92295DD9100309C40 /* Info.plist */,
@@ -72,6 +89,37 @@
 				17C847D12295DD8F00309C40 /* Dog_C.xcdatamodeld */,
 			);
 			path = "Dog-C";
+			sourceTree = "<group>";
+		};
+		17C847E42295DFF600309C40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17C847E12295DFF200309C40 /* HAJDogBreed.h */,
+				17C847E22295DFF200309C40 /* HAJDogBreed.m */,
+				17C847E52295E00E00309C40 /* HAJSubBreed.h */,
+				17C847E62295E00E00309C40 /* HAJSubBreed.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		17C847EB2295E4B200309C40 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				17C847E82295E4AC00309C40 /* HAJBreedNetworkClient.h */,
+				17C847E92295E4AC00309C40 /* HAJBreedNetworkClient.m */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		17C847EF2295F49E00309C40 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				17C847F42295FFEA00309C40 /* BreedListTableViewController.swift */,
+				17C847F32295FFE900309C40 /* Dog-C-Bridging-Header.h */,
+				17C847F822960B7100309C40 /* SubBreedTableViewController.swift */,
+				17C8482722961BA900309C40 /* DogPicCollectionViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +153,7 @@
 				TargetAttributes = {
 					17C847C42295DD8F00309C40 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -144,10 +193,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17C847CD2295DD8F00309C40 /* ViewController.m in Sources */,
+				17C847FB2296195D00309C40 /* DogPicCollectionViewCell.swift in Sources */,
+				17C847F52295FFEA00309C40 /* BreedListTableViewController.swift in Sources */,
+				17C847E72295E00E00309C40 /* HAJSubBreed.m in Sources */,
 				17C847CA2295DD8F00309C40 /* AppDelegate.m in Sources */,
+				17C847E32295DFF200309C40 /* HAJDogBreed.m in Sources */,
 				17C847DB2295DD9100309C40 /* main.m in Sources */,
+				17C8482822961BA900309C40 /* DogPicCollectionViewController.swift in Sources */,
+				17C847F922960B7100309C40 /* SubBreedTableViewController.swift in Sources */,
 				17C847D32295DD8F00309C40 /* Dog_C.xcdatamodeld in Sources */,
+				17C847EA2295E4AC00309C40 /* HAJBreedNetworkClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39YHWYH93Z;
 				INFOPLIST_FILE = "Dog-C/Info.plist";
@@ -298,6 +354,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HaleyJones.Dog-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dog-C/View Controllers/Dog-C-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -306,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39YHWYH93Z;
 				INFOPLIST_FILE = "Dog-C/Info.plist";
@@ -315,6 +375,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HaleyJones.Dog-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dog-C/View Controllers/Dog-C-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
